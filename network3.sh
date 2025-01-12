@@ -42,8 +42,7 @@ install_and_start_node() {
     apt update
 
     # 安装所需的软件包
-    apt install -y wget curl make clang pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd
-    apt-get install -y net-tools
+    apt install -y wget curl vim
 
     # 下载、解压并清理文件
     echo "下载并解压节点软件包..."
